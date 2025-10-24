@@ -1,0 +1,173 @@
+package testcase;
+
+import actions.common.BaseTest;
+import actions.common.AssertUtils;
+import actions.elements.RadioButtonAction;
+import actions.elements.WebTablesAction;
+import common.Log;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+/**
+ * FlowToElementTestCase
+ * - Tầng TestCase KHÔNG chứa XPath.
+ * - Mọi thao tác UI nằm ở tầng actions.* (Page Actions).
+ * - Assert dùng AssertUtils, log dùng Log4j2.
+ * - ExtentReport dùng listener ở execute.xml.
+ */
+public class FlowToElementTestCase extends BaseTest {
+
+    private RadioButtonAction radioPage;
+    private WebTablesAction webTablesPage;
+
+    @BeforeMethod(alwaysRun = true)
+    public void initPages() {
+        // Khởi tạo Page Actions với WebDriver hiện tại
+        radioPage = new RadioButtonAction(getDriver());
+        webTablesPage = new WebTablesAction(getDriver());
+    }
+
+    // =============================
+    // DQ-RB-002 — Radio Button: "No" bị disable
+    // =============================
+    @Test(priority = 1, groups = {"elements", "radio"}, description = "DQ-RB-002 | Elements > Radio Button | 'No' is disabled")
+    public void tc_DQ_RB_002_NoDisabled() {
+        Log.info("=== START: DQ-RB-002 ===");
+        radioPage.openRadioButtonPage();
+
+        boolean disabled = radioPage.isNoDisabled();
+        AssertUtils.assertTrue(disabled, "'No' phải disabled nhưng phát hiện enable.");
+        Log.info("KẾT QUẢ: 'No' bị disabled đúng mong đợi.");
+        Log.info("=== END: DQ-RB-002 ===");
+    }
+
+    // =============================
+    // DQ-WT-001 — Web Tables: Lấy Email theo First Name
+    // =============================
+    @DataProvider(name = "firstNameEmail")
+    public Object[][] firstNameEmail() {
+        return new Object[][] {
+                {"Cierra", "cierra@example.com"},
+                // Có thể thêm hàng khác nếu bạn seed thêm data
+        };
+    }
+
+    @Test(priority = 2, groups = {"elements", "webtables"}, dataProvider = "firstNameEmail",
+          description = "DQ-WT-001 | Elements > Web Tables | Get email by First Name")
+    public void tc_DQ_WT_001_GetEmailByFirstName(String firstName, String expectedEmail) {
+        Log.info("=== START: DQ-WT-001 ===");
+        webTablesPage.openWebTablesPage();
+
+        String actualEmail = webTablesPage.getEmailByFirstName(firstName);
+        Log.info("Email lấy được: " + actualEmail);
+
+        AssertUtils.assertEquals(actualEmail, expectedEmail, "Email hiển thị không khớp UI.");
+        Log.info("KẾT QUẢ: Email khớp UI.");
+        Log.info("=== END: DQ-WT-001 ===");
+    }
+
+    // =============================
+    // KHUNG CHO CÁC CASE CÒN LẠI (đã comment để tránh compile error)
+    // Khi implement, tạo actions + interfaces tương ứng, rồi bỏ comment.
+    // =============================
+
+    // DQ-WT-002 — ancestor:: từ Last Name 'Alden' → click Edit
+//    @Test(priority = 3, groups = {"elements", "webtables"},
+//          description = "DQ-WT-002 | From Last Name 'Alden' locate row via ancestor and click Edit")
+//    public void tc_DQ_WT_002_EditRowOfAlden() {
+//        WebTablesAction page = webTablesPage;
+//        page.openWebTablesPage();
+//        page.clickEditByLastName("Alden"); // implement trong actions
+//        AssertUtils.assertTrue(page.isEditFormOpenedFor("Alden"),
+//                "Form Edit không mở đúng hàng Alden.");
+//    }
+
+    // DQ-WT-003 — Following rows sau Age=39
+//    @Test(priority = 4, groups = {"elements", "webtables"},
+//          description = "DQ-WT-003 | List rows following the row with Age=39")
+//    public void tc_DQ_WT_003_ListFollowingRowsAfterAge39() {
+//        webTablesPage.openWebTablesPage();
+//        var rows = webTablesPage.getFollowingRowsAfterAge(39); // implement trong actions
+//        AssertUtils.assertTrue(rows.size() > 0, "Không có hàng nào phía sau Age=39.");
+//        // Thêm assert theo yêu cầu bài.
+//    }
+
+    // DQ-BTN-001 — Double click
+//    @Test(priority = 5, groups = {"elements", "buttons"},
+//          description = "DQ-BTN-001 | Double click shows correct message")
+//    public void tc_DQ_BTN_001_DoubleClick() {
+//        ButtonsAction btn = new ButtonsAction(getDriver());
+//        btn.open();
+//        btn.doubleClickOnTarget();
+//        String msg = btn.getDoubleClickMessage();
+//        AssertUtils.assertEquals(msg, "You have done a double click", "Message không khớp.");
+//    }
+
+    // DQ-LNK-001 — Links: Created trả 201
+//    @Test(priority = 6, groups = {"elements", "links"},
+//          description = "DQ-LNK-001 | Click 'Created' returns status 201")
+//    public void tc_DQ_LNK_001_Created201() {
+//        LinksAction lnk = new LinksAction(getDriver());
+//        lnk.open();
+//        String status = lnk.clickCreatedAndGetStatus(); // ví dụ "201"
+//        AssertUtils.assertEquals(status, "201", "Status không phải 201.");
+//    }
+
+    // DQ-UP-001 — Upload .png
+//    @Test(priority = 7, groups = {"elements", "upload"},
+//          description = "DQ-UP-001 | Upload valid .png and verify filename")
+//    public void tc_DQ_UP_001_UploadPng() {
+//        UploadDownloadAction up = new UploadDownloadAction(getDriver());
+//        up.open();
+//        String path = "C:\\\\temp\\\\logo.png";
+//        up.uploadFile(path);
+//        AssertUtils.assertTrue(up.isFilenameDisplayedEndsWith("logo.png"),
+//                "Tên file hiển thị không kết thúc bằng 'logo.png'.");
+//    }
+
+    // DQ-DP-001 — Dynamic Properties: enable after 5s
+//    @Test(priority = 8, groups = {"elements", "dynamic"},
+//          description = "DQ-DP-001 | Button enables after ~5 seconds")
+//    public void tc_DQ_DP_001_EnableAfter() {
+//        DynamicPropertiesAction dp = new DynamicPropertiesAction(getDriver());
+//        dp.open();
+//        AssertUtils.assertTrue(dp.waitUntilWillEnableButton(7),
+//                "Nút không chuyển từ disabled -> enabled trong timeout.");
+//    }
+
+    // DQ-AL-001 — Alerts: accept
+//    @Test(priority = 9, groups = {"alerts"},
+//          description = "DQ-AL-001 | Simple alert: Click and Accept")
+//    public void tc_DQ_AL_001_AcceptAlert() {
+//        AlertsAction al = new AlertsAction(getDriver());
+//        al.open();
+//        al.openSimpleAlertAndAccept();
+//        AssertUtils.assertTrue(al.isAlertHandledSuccessfully(),
+//                "Sau khi accept, UI chưa ổn định hoặc flag chưa set.");
+//    }
+
+    // DQ-FM-001 — Forms: submit positive
+//    @Test(priority = 10, groups = {"forms"},
+//          description = "DQ-FM-001 | Practice Form: submit minimal valid & verify modal")
+//    public void tc_DQ_FM_001_SubmitForm() {
+//        FormsAction form = new FormsAction(getDriver());
+//        form.open();
+//        form.fillMinimalValid("Minh", "Le", "minh@example.com", "Male", "0987654321");
+//        form.submit();
+//        AssertUtils.assertTrue(form.isResultModalShownWith("Minh", "Le", "minh@example.com"),
+//                "Modal kết quả không chứa dữ liệu đã nhập.");
+//    }
+
+    // DQ-DPICK-001 — Date Picker: BVA đầu & cuối tháng
+//    @Test(priority = 11, groups = {"widgets", "datepicker"},
+//          description = "DQ-DPICK-001 | Pick day 1 and day 31 (if available)")
+//    public void tc_DQ_DPICK_001_BVA_Bounds() {
+//        DatePickerAction dpick = new DatePickerAction(getDriver());
+//        dpick.open();
+//        boolean picked1 = dpick.pickDay(1);
+//        boolean picked31 = dpick.pickLastDayIfExists(31);
+//        AssertUtils.assertTrue(picked1, "Không chọn được ngày 1.");
+//        // Nếu tháng không có 31 thì picked31 có thể false → assert theo UI thực tế.
+//    }
+}

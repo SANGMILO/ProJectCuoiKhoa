@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="ProJectCuoiKhoa" parallel="false">
+    <!--
+    <groups>
+        <run>
+            <include name="DQ-TB-001"/>
+        </run>
+    </groups>
+    -->
+
+    <listeners>
+        <!-- Đổi thành package thật của bạn nếu khác -->
+        <listener class-name="reports.TestListener"/>
+    </listeners>
+
+    <test name="Demo">
+        <classes>
+            <class name="testcase.FlowToElementTestCase"/>
+        </classes>
+    </test>
+
+</suite>

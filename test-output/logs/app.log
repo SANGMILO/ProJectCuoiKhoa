@@ -1,0 +1,60 @@
+[INFO ] 24-10-2025 15:16:18 [main] Log - Khoi chay testcase DQ-RB-002)
+[INFO ] 24-10-2025 15:16:18 [main] Log - Open: https://demoqa.com/radio-button
+[INFO ] 24-10-2025 15:20:46 [main] Log - Khoi chay testcase DQ-RB-002)
+[INFO ] 24-10-2025 15:20:46 [main] Log - Open: https://demoqa.com/radio-button
+[INFO ] 24-10-2025 15:22:10 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 24-10-2025 15:22:10 [main] Log - Open: https://demoqa.com/radio-button
+[INFO ] 24-10-2025 15:22:13 [main] Log - Check button No co bat khong!
+[INFO ] 24-10-2025 15:26:55 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 24-10-2025 15:26:55 [main] Log - Open: https://demoqa.com/radio-button
+[INFO ] 24-10-2025 15:26:58 [main] Log - Check button No co bat khong!
+[INFO ] 24-10-2025 15:32:42 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 24-10-2025 15:32:42 [main] Log - Open: https://demoqa.com/radio-button
+[INFO ] 24-10-2025 15:32:50 [main] Log - Check button No co bat khong!
+[INFO ] 24-10-2025 15:32:50 [main] Log - 'No' disabled = true
+[INFO ] 24-10-2025 15:32:50 [main] Log - KẾT QUẢ: 'No' bị disabled đúng mong đợi.
+[INFO ] 24-10-2025 15:32:50 [main] Log - === END: DQ-RB-002 ===
+[INFO ] 24-10-2025 15:34:50 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 24-10-2025 15:36:49 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 24-10-2025 15:37:44 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 24-10-2025 15:37:44 [main] Log - Open: https://demoqa.com/radio-button
+[INFO ] 24-10-2025 15:37:47 [main] Log - Check button No co bat khong!
+[INFO ] 24-10-2025 15:37:47 [main] Log - 'No' disabled = true
+[INFO ] 24-10-2025 15:37:47 [main] Log - KẾT QUẢ: 'No' bị disabled đúng mong đợi.
+[INFO ] 24-10-2025 15:37:47 [main] Log - === END: DQ-RB-002 ===
+[INFO ] 24-10-2025 15:43:57 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 24-10-2025 15:43:57 [main] Log - Open: https://demoqa.com/radio-button
+[INFO ] 24-10-2025 15:44:00 [main] Log - Check button No co bat khong!
+[INFO ] 24-10-2025 15:44:00 [main] Log - 'No' disabled = true
+[INFO ] 24-10-2025 15:44:00 [main] Log - KẾT QUẢ: 'No' bị disabled đúng mong đợi.
+[INFO ] 24-10-2025 15:44:00 [main] Log - === END: DQ-RB-002 ===
+[INFO ] 24-10-2025 15:49:35 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 24-10-2025 15:49:35 [main] Log - Open: https://demoqa.com/radio-button
+[INFO ] 24-10-2025 15:49:38 [main] Log - Check button No co bat khong!
+[INFO ] 24-10-2025 15:49:38 [main] Log - 'No' disabled = true
+[INFO ] 24-10-2025 15:49:38 [main] Log - KẾT QUẢ: 'No' bị disabled đúng mong đợi.
+[INFO ] 24-10-2025 15:49:38 [main] Log - === END: DQ-RB-002 ===
+[INFO ] 24-10-2025 15:50:59 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 24-10-2025 15:50:59 [main] Log - Open: https://demoqa.com/radio-button
+[INFO ] 24-10-2025 15:51:01 [main] Log - Check button No co bat khong!
+[INFO ] 24-10-2025 15:51:01 [main] Log - 'No' disabled = true
+[INFO ] 24-10-2025 15:51:01 [main] Log - KẾT QUẢ: 'No' bị disabled đúng mong đợi.
+[INFO ] 24-10-2025 15:51:01 [main] Log - === END: DQ-RB-002 ===
+[INFO ] 24-10-2025 15:57:52 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 24-10-2025 15:57:52 [main] Log - Open: https://demoqa.com/radio-button
+[INFO ] 24-10-2025 15:57:55 [main] Log - Check button No co bat khong!
+[INFO ] 24-10-2025 15:57:55 [main] Log - 'No' disabled = true
+[INFO ] 24-10-2025 15:57:55 [main] Log - K?T QU?: 'No' b? disabled ?�ng mong ??i.
+[INFO ] 24-10-2025 15:57:55 [main] Log - === END: DQ-RB-002 ===
+[INFO ] 24-10-2025 16:00:26 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 24-10-2025 16:00:26 [main] Log - Open: https://demoqa.com/radio-button
+[INFO ] 24-10-2025 16:00:29 [main] Log - Check button No co bat khong!
+[INFO ] 24-10-2025 16:00:29 [main] Log - 'No' disabled = true
+[INFO ] 24-10-2025 16:00:29 [main] Log - K?T QU?: 'No' b? disabled ?�ng mong ??i.
+[INFO ] 24-10-2025 16:00:29 [main] Log - === END: DQ-RB-002 ===
+[INFO ] 24-10-2025 16:09:38 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 24-10-2025 16:09:38 [main] Log - Open: https://demoqa.com/radio-button
+[INFO ] 24-10-2025 16:09:41 [main] Log - Check button No co bat khong!
+[INFO ] 24-10-2025 16:09:42 [main] Log - 'No' disabled = true
+[INFO ] 24-10-2025 16:09:42 [main] Log - KẾT QUẢ: 'No' bị disabled đúng mong đợi.
+[INFO ] 24-10-2025 16:09:42 [main] Log - === END: DQ-RB-002 ===
