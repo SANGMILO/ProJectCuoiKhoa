@@ -12,6 +12,8 @@ import org.testng.ITestResult;
 
 import org.openqa.selenium.*;
 import org.apache.commons.io.FileUtils;
+import reports.ExtentManager;
+import reports.ExtentTestManager;
 
 import java.io.File;
 import java.nio.file.Paths;

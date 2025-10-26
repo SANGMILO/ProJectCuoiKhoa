@@ -563,4 +563,11 @@ public class BasePage {
         wait = new WebDriverWait(driver, Duration.ofSeconds(GlobalVariables.SHORT_TIMEOUT));
         wait.until(ExpectedConditions.presenceOfElementLocated(getDynamicXpath(xpath, params)));
     }
+
+    public void waitForTextPresent(WebDriver driver, String xpath, String expected, String... params) {
+        By by = getDynamicXpath(xpath, params);
+        new WebDriverWait(driver, Duration.ofSeconds(GlobalVariables.LONG_TIMEOUT))
+                .until(ExpectedConditions.textToBePresentInElementLocated(by, expected));
+    }
+
 }

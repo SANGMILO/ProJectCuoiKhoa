@@ -58,3 +58,514 @@
 [INFO ] 24-10-2025 16:09:42 [main] Log - 'No' disabled = true
 [INFO ] 24-10-2025 16:09:42 [main] Log - KẾT QUẢ: 'No' bị disabled đúng mong đợi.
 [INFO ] 24-10-2025 16:09:42 [main] Log - === END: DQ-RB-002 ===
+[INFO ] 25-10-2025 23:32:10 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 25-10-2025 23:32:10 [main] Log - Open: https://demoqa.com/radio-button
+[INFO ] 25-10-2025 23:32:16 [main] Log - Check button No co bat khong!
+[INFO ] 25-10-2025 23:32:16 [main] Log - 'No' disabled = true
+[INFO ] 25-10-2025 23:32:16 [main] Log - KẾT QUẢ: 'No' bị disabled đúng mong đợi.
+[INFO ] 25-10-2025 23:32:16 [main] Log - === END: DQ-RB-002 ===
+[INFO ] 25-10-2025 23:33:03 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 25-10-2025 23:33:03 [main] Log - Open: https://demoqa.com/radio-button
+[INFO ] 25-10-2025 23:33:06 [main] Log - Check button No co bat khong!
+[INFO ] 25-10-2025 23:33:06 [main] Log - 'No' disabled = true
+[INFO ] 25-10-2025 23:33:06 [main] Log - K?T QU?: 'No' b? disabled ?�ng mong ??i.
+[INFO ] 25-10-2025 23:33:06 [main] Log - === END: DQ-RB-002 ===
+[INFO ] 26-10-2025 22:49:32 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 26-10-2025 22:49:32 [main] Log - Open: https://demoqa.com/radio-button
+[INFO ] 26-10-2025 22:49:40 [main] Log - Check button No co bat khong!
+[INFO ] 26-10-2025 22:49:40 [main] Log - 'No' disabled = true
+[INFO ] 26-10-2025 22:49:40 [main] Log - K?T QU?: 'No' b? disabled ?�ng mong ??i.
+[INFO ] 26-10-2025 22:49:40 [main] Log - === END: DQ-RB-002 ===
+[INFO ] 26-10-2025 23:38:34 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 26-10-2025 23:38:34 [main] Log - Opening Radio Button
+[INFO ] 26-10-2025 23:38:34 [main] Log - Clicking on card :Elements
+[INFO ] 26-10-2025 23:38:34 [main] Log - Clicking on left menu :Radio Button
+[INFO ] 26-10-2025 23:41:39 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 26-10-2025 23:41:39 [main] Log - Opening Radio Button
+[INFO ] 26-10-2025 23:41:40 [main] Log - Clicking on card :Elements
+[INFO ] 26-10-2025 23:41:40 [main] Log - Clicking on left menu :Radio Button
+[INFO ] 26-10-2025 23:46:27 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 26-10-2025 23:46:27 [main] Log - Opening Radio Button
+[INFO ] 26-10-2025 23:46:27 [main] Log - Clicking on card :Elements
+[INFO ] 26-10-2025 23:46:27 [main] Log - Clicking on left menu :Radio Button
+[INFO ] 26-10-2025 23:48:09 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 26-10-2025 23:48:09 [main] Log - Opening Radio Button
+[INFO ] 26-10-2025 23:48:09 [main] Log - Clicking on card :Elements
+[INFO ] 26-10-2025 23:48:10 [main] Log - Clicking on left menu :Radio Button
+[INFO ] 26-10-2025 23:48:10 [main] Log - Check button No co bat khong!
+[INFO ] 26-10-2025 23:48:10 [main] Log - 'No' disabled = true
+[INFO ] 26-10-2025 23:48:10 [main] Log - KẾT QUẢ: 'No' bi disabled dung mong doi.
+[INFO ] 26-10-2025 23:48:10 [main] Log - === END: DQ-RB-002 ===
+[INFO ] 26-10-2025 23:50:21 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 26-10-2025 23:50:21 [main] Log - Opening Radio Button
+[INFO ] 26-10-2025 23:50:21 [main] Log - Clicking on card :Elements
+[INFO ] 26-10-2025 23:50:22 [main] Log - Clicking on left menu :Radio Button
+[INFO ] 26-10-2025 23:50:22 [main] Log - Check button No co bat khong!
+[INFO ] 26-10-2025 23:50:22 [main] Log - 'No' disabled = true
+[INFO ] 26-10-2025 23:50:22 [main] Log - K?T QU?: 'No' bi disabled dung mong doi.
+[INFO ] 26-10-2025 23:50:22 [main] Log - === END: DQ-RB-002 ===
+[INFO ] 27-10-2025 00:24:24 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 27-10-2025 00:24:24 [main] Log - Opening Radio Button
+[INFO ] 27-10-2025 00:24:24 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:24:24 [main] Log - Clicking on left menu :Radio Button
+[INFO ] 27-10-2025 00:24:24 [main] Log - Check button No co bat khong!
+[INFO ] 27-10-2025 00:24:24 [main] Log - 'No' disabled = true
+[INFO ] 27-10-2025 00:24:24 [main] Log - KẾT QUẢ: 'No' bi disabled dung mong doi.
+[INFO ] 27-10-2025 00:24:24 [main] Log - === END: DQ-RB-002 ===
+[INFO ] 27-10-2025 00:24:31 [main] Log - Open: Elements > Web Tables
+[INFO ] 27-10-2025 00:24:31 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:24:32 [main] Log - Clicking on left menu :Web Tables
+[INFO ] 27-10-2025 00:24:32 [main] Log - Email of Cierra: cierra@example.com
+[INFO ] 27-10-2025 00:24:37 [main] Log - Open: Elements > Web Tables
+[INFO ] 27-10-2025 00:24:37 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:24:37 [main] Log - Clicking on left menu :Web Tables
+[INFO ] 27-10-2025 00:25:12 [main] Log - Open: Elements > Web Tables
+[INFO ] 27-10-2025 00:25:12 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:25:13 [main] Log - Clicking on left menu :Web Tables
+[INFO ] 27-10-2025 00:25:13 [main] Log - Following rows count after Age=39: 9
+[INFO ] 27-10-2025 00:25:18 [main] Log - Open: Elements > Buttons
+[INFO ] 27-10-2025 00:25:18 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:25:19 [main] Log - Clicking on left menu :Buttons
+[INFO ] 27-10-2025 00:25:54 [main] Log - Open: Elements > Links
+[INFO ] 27-10-2025 00:25:54 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:25:54 [main] Log - Clicking on left menu :Links
+[INFO ] 27-10-2025 00:26:02 [main] Log - Open: Elements > Upload and Download
+[INFO ] 27-10-2025 00:26:02 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:26:02 [main] Log - Clicking on left menu :Upload and Download
+[INFO ] 27-10-2025 00:26:38 [main] Log - Open: Elements > Dynamic Properties
+[INFO ] 27-10-2025 00:26:38 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:26:38 [main] Log - Clicking on left menu :Dynamic Properties
+[INFO ] 27-10-2025 00:26:48 [main] Log - Open: Alerts, Frame & Windows > Alerts
+[INFO ] 27-10-2025 00:26:48 [main] Log - Clicking on card :Alerts, Frame & Windows
+[INFO ] 27-10-2025 00:26:48 [main] Log - Clicking on left menu :Alerts
+[INFO ] 27-10-2025 00:26:56 [main] Log - Open: Forms > Practice Form
+[INFO ] 27-10-2025 00:26:56 [main] Log - Clicking on card :Forms
+[INFO ] 27-10-2025 00:26:56 [main] Log - Clicking on left menu :Practice Form
+[INFO ] 27-10-2025 00:27:03 [main] Log - Open: Widgets > Date Picker
+[INFO ] 27-10-2025 00:27:03 [main] Log - Clicking on card :Widgets
+[INFO ] 27-10-2025 00:27:03 [main] Log - Clicking on left menu :Date Picker
+[INFO ] 27-10-2025 00:37:49 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 27-10-2025 00:37:49 [main] Log - Opening Radio Button
+[INFO ] 27-10-2025 00:37:49 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:37:49 [main] Log - Clicking on left menu :Radio Button
+[INFO ] 27-10-2025 00:37:49 [main] Log - Check button No co bat khong!
+[INFO ] 27-10-2025 00:37:49 [main] Log - 'No' disabled = true
+[INFO ] 27-10-2025 00:37:49 [main] Log - KẾT QUẢ: 'No' bi disabled dung mong doi.
+[INFO ] 27-10-2025 00:37:49 [main] Log - === END: DQ-RB-002 ===
+[INFO ] 27-10-2025 00:37:55 [main] Log - Open: Elements > Web Tables
+[INFO ] 27-10-2025 00:37:55 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:37:55 [main] Log - Clicking on left menu :Web Tables
+[INFO ] 27-10-2025 00:37:56 [main] Log - Email of Cierra: cierra@example.com
+[INFO ] 27-10-2025 00:38:01 [main] Log - Open: Elements > Web Tables
+[INFO ] 27-10-2025 00:38:01 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:38:01 [main] Log - Clicking on left menu :Web Tables
+[INFO ] 27-10-2025 00:38:13 [main] Log - Open: Elements > Web Tables
+[INFO ] 27-10-2025 00:38:13 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:38:13 [main] Log - Clicking on left menu :Web Tables
+[INFO ] 27-10-2025 00:38:14 [main] Log - Following rows count after Age=39: 9
+[INFO ] 27-10-2025 00:38:19 [main] Log - Open: Elements > Buttons
+[INFO ] 27-10-2025 00:38:19 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:38:19 [main] Log - Clicking on left menu :Buttons
+[INFO ] 27-10-2025 00:38:36 [main] Log - Open: Elements > Links
+[INFO ] 27-10-2025 00:38:36 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:38:36 [main] Log - Clicking on left menu :Links
+[INFO ] 27-10-2025 00:38:41 [main] Log - Open: Elements > Upload and Download
+[INFO ] 27-10-2025 00:38:41 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:38:42 [main] Log - Clicking on left menu :Upload and Download
+[INFO ] 27-10-2025 00:39:21 [main] Log - Open: Elements > Dynamic Properties
+[INFO ] 27-10-2025 00:39:21 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:39:21 [main] Log - Clicking on left menu :Dynamic Properties
+[INFO ] 27-10-2025 00:39:33 [main] Log - Open: Alerts, Frame & Windows > Alerts
+[INFO ] 27-10-2025 00:39:33 [main] Log - Clicking on card :Alerts, Frame & Windows
+[INFO ] 27-10-2025 00:39:33 [main] Log - Clicking on left menu :Alerts
+[INFO ] 27-10-2025 00:39:38 [main] Log - Open: Forms > Practice Form
+[INFO ] 27-10-2025 00:39:38 [main] Log - Clicking on card :Forms
+[INFO ] 27-10-2025 00:39:39 [main] Log - Clicking on left menu :Practice Form
+[INFO ] 27-10-2025 00:39:45 [main] Log - Open: Widgets > Date Picker
+[INFO ] 27-10-2025 00:39:45 [main] Log - Clicking on card :Widgets
+[INFO ] 27-10-2025 00:39:45 [main] Log - Clicking on left menu :Date Picker
+[WARN ] 27-10-2025 00:40:04 [main] Log - Tháng hiện tại không có ngày 31 — bỏ qua phần BVA cuối tháng.
+[INFO ] 27-10-2025 00:47:21 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 27-10-2025 00:47:21 [main] Log - Opening Radio Button
+[INFO ] 27-10-2025 00:47:21 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:47:22 [main] Log - Clicking on left menu :Radio Button
+[INFO ] 27-10-2025 00:47:22 [main] Log - Check button No co bat khong!
+[INFO ] 27-10-2025 00:47:22 [main] Log - 'No' disabled = true
+[INFO ] 27-10-2025 00:47:22 [main] Log - KẾT QUẢ: 'No' bi disabled dung mong doi.
+[INFO ] 27-10-2025 00:47:22 [main] Log - === END: DQ-RB-002 ===
+[INFO ] 27-10-2025 00:47:27 [main] Log - Open: Elements > Web Tables
+[INFO ] 27-10-2025 00:47:27 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:47:27 [main] Log - Clicking on left menu :Web Tables
+[INFO ] 27-10-2025 00:47:27 [main] Log - Email of Cierra: cierra@example.com
+[INFO ] 27-10-2025 00:47:32 [main] Log - Open: Elements > Web Tables
+[INFO ] 27-10-2025 00:47:32 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:47:32 [main] Log - Clicking on left menu :Web Tables
+[INFO ] 27-10-2025 00:47:38 [main] Log - Open: Elements > Web Tables
+[INFO ] 27-10-2025 00:47:38 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:47:38 [main] Log - Clicking on left menu :Web Tables
+[INFO ] 27-10-2025 00:47:38 [main] Log - Following rows count after Age=39: 9
+[INFO ] 27-10-2025 00:47:43 [main] Log - Open: Elements > Buttons
+[INFO ] 27-10-2025 00:47:43 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:47:44 [main] Log - Clicking on left menu :Buttons
+[INFO ] 27-10-2025 00:48:19 [main] Log - Open: Elements > Links
+[INFO ] 27-10-2025 00:48:19 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:48:20 [main] Log - Clicking on left menu :Links
+[INFO ] 27-10-2025 00:48:25 [main] Log - Open: Elements > Upload and Download
+[INFO ] 27-10-2025 00:48:25 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:48:25 [main] Log - Clicking on left menu :Upload and Download
+[INFO ] 27-10-2025 00:48:25 [main] Log - Upload file: C:\Users\This PC\IdeaProjects\ProjectCuoiKhoa/src/test/resources/logo.png
+[INFO ] 27-10-2025 00:48:30 [main] Log - Open: Elements > Dynamic Properties
+[INFO ] 27-10-2025 00:48:30 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:48:31 [main] Log - Clicking on left menu :Dynamic Properties
+[INFO ] 27-10-2025 00:48:41 [main] Log - Open: Alerts, Frame & Windows > Alerts
+[INFO ] 27-10-2025 00:48:41 [main] Log - Clicking on card :Alerts, Frame & Windows
+[INFO ] 27-10-2025 00:48:41 [main] Log - Clicking on left menu :Alerts
+[INFO ] 27-10-2025 00:48:47 [main] Log - Open: Forms > Practice Form
+[INFO ] 27-10-2025 00:48:47 [main] Log - Clicking on card :Forms
+[INFO ] 27-10-2025 00:48:48 [main] Log - Clicking on left menu :Practice Form
+[INFO ] 27-10-2025 00:48:55 [main] Log - Open: Widgets > Date Picker
+[INFO ] 27-10-2025 00:48:55 [main] Log - Clicking on card :Widgets
+[INFO ] 27-10-2025 00:48:55 [main] Log - Clicking on left menu :Date Picker
+[INFO ] 27-10-2025 00:56:44 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 27-10-2025 00:56:44 [main] Log - Opening Radio Button
+[INFO ] 27-10-2025 00:56:44 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:56:44 [main] Log - Clicking on left menu :Radio Button
+[INFO ] 27-10-2025 00:56:44 [main] Log - Check button No co bat khong!
+[INFO ] 27-10-2025 00:56:44 [main] Log - 'No' disabled = true
+[INFO ] 27-10-2025 00:56:44 [main] Log - KẾT QUẢ: 'No' bi disabled dung mong doi.
+[INFO ] 27-10-2025 00:56:44 [main] Log - === END: DQ-RB-002 ===
+[INFO ] 27-10-2025 00:56:49 [main] Log - Open: Elements > Web Tables
+[INFO ] 27-10-2025 00:56:49 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:56:49 [main] Log - Clicking on left menu :Web Tables
+[INFO ] 27-10-2025 00:56:49 [main] Log - Email of Cierra: cierra@example.com
+[INFO ] 27-10-2025 00:56:54 [main] Log - Open: Elements > Web Tables
+[INFO ] 27-10-2025 00:56:54 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:56:54 [main] Log - Clicking on left menu :Web Tables
+[INFO ] 27-10-2025 00:57:00 [main] Log - Open: Elements > Web Tables
+[INFO ] 27-10-2025 00:57:00 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:57:00 [main] Log - Clicking on left menu :Web Tables
+[INFO ] 27-10-2025 00:57:00 [main] Log - Following rows count after Age=39: 9
+[INFO ] 27-10-2025 00:57:05 [main] Log - Open: Elements > Buttons
+[INFO ] 27-10-2025 00:57:05 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:57:06 [main] Log - Clicking on left menu :Buttons
+[INFO ] 27-10-2025 00:57:12 [main] Log - Open: Elements > Links
+[INFO ] 27-10-2025 00:57:12 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:57:12 [main] Log - Clicking on left menu :Links
+[INFO ] 27-10-2025 00:57:18 [main] Log - Open: Elements > Upload and Download
+[INFO ] 27-10-2025 00:57:18 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:57:18 [main] Log - Clicking on left menu :Upload and Download
+[INFO ] 27-10-2025 00:57:19 [main] Log - Upload file: C:\Users\This PC\IdeaProjects\ProjectCuoiKhoa/src/test/resources/logo.png
+[INFO ] 27-10-2025 00:57:24 [main] Log - Open: Elements > Dynamic Properties
+[INFO ] 27-10-2025 00:57:24 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 00:57:24 [main] Log - Clicking on left menu :Dynamic Properties
+[INFO ] 27-10-2025 00:57:34 [main] Log - Open: Alerts, Frame & Windows > Alerts
+[INFO ] 27-10-2025 00:57:34 [main] Log - Clicking on card :Alerts, Frame & Windows
+[INFO ] 27-10-2025 00:57:34 [main] Log - Clicking on left menu :Alerts
+[INFO ] 27-10-2025 00:57:39 [main] Log - Open: Forms > Practice Form
+[INFO ] 27-10-2025 00:57:39 [main] Log - Clicking on card :Forms
+[INFO ] 27-10-2025 00:57:40 [main] Log - Clicking on left menu :Practice Form
+[INFO ] 27-10-2025 00:57:46 [main] Log - Open: Widgets > Date Picker
+[INFO ] 27-10-2025 00:57:46 [main] Log - Clicking on card :Widgets
+[INFO ] 27-10-2025 00:57:46 [main] Log - Clicking on left menu :Date Picker
+[WARN ] 27-10-2025 00:58:05 [main] Log - Tháng hiện tại không có ngày 31 — bỏ qua phần BVA cuối tháng.
+[INFO ] 27-10-2025 01:01:40 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 27-10-2025 01:01:40 [main] Log - Opening Radio Button
+[INFO ] 27-10-2025 01:01:40 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 01:01:40 [main] Log - Clicking on left menu :Radio Button
+[INFO ] 27-10-2025 01:01:40 [main] Log - Check button No co bat khong!
+[INFO ] 27-10-2025 01:01:40 [main] Log - 'No' disabled = true
+[INFO ] 27-10-2025 01:01:40 [main] Log - KẾT QUẢ: 'No' bi disabled dung mong doi.
+[INFO ] 27-10-2025 01:01:40 [main] Log - === END: DQ-RB-002 ===
+[INFO ] 27-10-2025 01:01:45 [main] Log - Open: Elements > Web Tables
+[INFO ] 27-10-2025 01:01:45 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 01:01:45 [main] Log - Clicking on left menu :Web Tables
+[INFO ] 27-10-2025 01:01:46 [main] Log - Email of Cierra: cierra@example.com
+[INFO ] 27-10-2025 01:01:50 [main] Log - Open: Elements > Web Tables
+[INFO ] 27-10-2025 01:01:50 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 01:01:51 [main] Log - Clicking on left menu :Web Tables
+[INFO ] 27-10-2025 01:01:56 [main] Log - Open: Elements > Web Tables
+[INFO ] 27-10-2025 01:01:56 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 01:01:56 [main] Log - Clicking on left menu :Web Tables
+[INFO ] 27-10-2025 01:01:56 [main] Log - Following rows count after Age=39: 9
+[INFO ] 27-10-2025 01:02:01 [main] Log - Open: Elements > Buttons
+[INFO ] 27-10-2025 01:02:01 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 01:02:01 [main] Log - Clicking on left menu :Buttons
+[INFO ] 27-10-2025 01:02:37 [main] Log - Open: Elements > Links
+[INFO ] 27-10-2025 01:02:37 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 01:02:37 [main] Log - Clicking on left menu :Links
+[INFO ] 27-10-2025 01:02:42 [main] Log - Open: Elements > Upload and Download
+[INFO ] 27-10-2025 01:02:42 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 01:02:43 [main] Log - Clicking on left menu :Upload and Download
+[INFO ] 27-10-2025 01:02:43 [main] Log - Open: Elements > Upload and Download
+[INFO ] 27-10-2025 01:02:43 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 01:03:19 [main] Log - Open: Elements > Dynamic Properties
+[INFO ] 27-10-2025 01:03:19 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 01:03:19 [main] Log - Clicking on left menu :Dynamic Properties
+[INFO ] 27-10-2025 01:03:30 [main] Log - Open: Alerts, Frame & Windows > Alerts
+[INFO ] 27-10-2025 01:03:30 [main] Log - Clicking on card :Alerts, Frame & Windows
+[INFO ] 27-10-2025 01:03:30 [main] Log - Clicking on left menu :Alerts
+[INFO ] 27-10-2025 01:03:36 [main] Log - Open: Forms > Practice Form
+[INFO ] 27-10-2025 01:03:36 [main] Log - Clicking on card :Forms
+[INFO ] 27-10-2025 01:03:36 [main] Log - Clicking on left menu :Practice Form
+[INFO ] 27-10-2025 01:03:42 [main] Log - Open: Widgets > Date Picker
+[INFO ] 27-10-2025 01:03:42 [main] Log - Clicking on card :Widgets
+[INFO ] 27-10-2025 01:03:42 [main] Log - Clicking on left menu :Date Picker
+[WARN ] 27-10-2025 01:04:01 [main] Log - Tháng hiện tại không có ngày 31 — bỏ qua phần BVA cuối tháng.
+[INFO ] 27-10-2025 01:06:20 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 27-10-2025 01:06:20 [main] Log - Opening Radio Button
+[INFO ] 27-10-2025 01:06:20 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 01:06:21 [main] Log - Clicking on left menu :Radio Button
+[INFO ] 27-10-2025 01:06:21 [main] Log - Check button No co bat khong!
+[INFO ] 27-10-2025 01:06:21 [main] Log - 'No' disabled = true
+[INFO ] 27-10-2025 01:06:21 [main] Log - KẾT QUẢ: 'No' bi disabled dung mong doi.
+[INFO ] 27-10-2025 01:06:21 [main] Log - === END: DQ-RB-002 ===
+[INFO ] 27-10-2025 01:06:26 [main] Log - Open: Elements > Web Tables
+[INFO ] 27-10-2025 01:06:26 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 01:06:26 [main] Log - Clicking on left menu :Web Tables
+[INFO ] 27-10-2025 01:06:26 [main] Log - Email of Cierra: cierra@example.com
+[INFO ] 27-10-2025 01:06:31 [main] Log - Open: Elements > Web Tables
+[INFO ] 27-10-2025 01:06:31 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 01:06:31 [main] Log - Clicking on left menu :Web Tables
+[INFO ] 27-10-2025 01:06:36 [main] Log - Open: Elements > Web Tables
+[INFO ] 27-10-2025 01:06:36 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 01:06:37 [main] Log - Clicking on left menu :Web Tables
+[INFO ] 27-10-2025 01:06:37 [main] Log - Following rows count after Age=39: 9
+[INFO ] 27-10-2025 01:06:42 [main] Log - Open: Elements > Buttons
+[INFO ] 27-10-2025 01:06:42 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 01:06:42 [main] Log - Clicking on left menu :Buttons
+[INFO ] 27-10-2025 01:06:48 [main] Log - Open: Elements > Links
+[INFO ] 27-10-2025 01:06:48 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 01:06:48 [main] Log - Clicking on left menu :Links
+[INFO ] 27-10-2025 01:06:53 [main] Log - Open: Elements > Upload and Download
+[INFO ] 27-10-2025 01:06:53 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 01:06:53 [main] Log - Clicking on left menu :Upload and Download
+[INFO ] 27-10-2025 01:06:53 [main] Log - Open: Elements > Upload and Download
+[INFO ] 27-10-2025 01:06:53 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 01:07:28 [main] Log - Open: Elements > Dynamic Properties
+[INFO ] 27-10-2025 01:07:28 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 01:07:29 [main] Log - Clicking on left menu :Dynamic Properties
+[INFO ] 27-10-2025 01:07:39 [main] Log - Open: Alerts, Frame & Windows > Alerts
+[INFO ] 27-10-2025 01:07:39 [main] Log - Clicking on card :Alerts, Frame & Windows
+[INFO ] 27-10-2025 01:07:39 [main] Log - Clicking on left menu :Alerts
+[INFO ] 27-10-2025 01:07:44 [main] Log - Open: Forms > Practice Form
+[INFO ] 27-10-2025 01:07:44 [main] Log - Clicking on card :Forms
+[INFO ] 27-10-2025 01:07:45 [main] Log - Clicking on left menu :Practice Form
+[INFO ] 27-10-2025 01:07:51 [main] Log - Open: Widgets > Date Picker
+[INFO ] 27-10-2025 01:07:51 [main] Log - Clicking on card :Widgets
+[INFO ] 27-10-2025 01:07:51 [main] Log - Clicking on left menu :Date Picker
+[INFO ] 27-10-2025 01:16:21 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 27-10-2025 01:16:21 [main] Log - Opening Radio Button
+[INFO ] 27-10-2025 01:16:21 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 01:16:22 [main] Log - Clicking on left menu :Radio Button
+[INFO ] 27-10-2025 01:16:22 [main] Log - Check button No co bat khong!
+[INFO ] 27-10-2025 01:16:22 [main] Log - 'No' disabled = true
+[INFO ] 27-10-2025 01:16:22 [main] Log - KẾT QUẢ: 'No' bi disabled dung mong doi.
+[INFO ] 27-10-2025 01:16:22 [main] Log - === END: DQ-RB-002 ===
+[INFO ] 27-10-2025 01:16:27 [main] Log - Open: Elements > Web Tables
+[INFO ] 27-10-2025 01:16:27 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 01:16:27 [main] Log - Clicking on left menu :Web Tables
+[INFO ] 27-10-2025 01:16:27 [main] Log - Email of Cierra: cierra@example.com
+[INFO ] 27-10-2025 01:16:32 [main] Log - Open: Elements > Web Tables
+[INFO ] 27-10-2025 01:16:32 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 01:16:33 [main] Log - Clicking on left menu :Web Tables
+[INFO ] 27-10-2025 01:16:38 [main] Log - Open: Elements > Web Tables
+[INFO ] 27-10-2025 01:16:38 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 01:16:38 [main] Log - Clicking on left menu :Web Tables
+[INFO ] 27-10-2025 01:16:38 [main] Log - Following rows count after Age=39: 9
+[INFO ] 27-10-2025 01:16:43 [main] Log - Open: Elements > Buttons
+[INFO ] 27-10-2025 01:16:43 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 01:16:43 [main] Log - Clicking on left menu :Buttons
+[INFO ] 27-10-2025 01:16:49 [main] Log - Open: Elements > Links
+[INFO ] 27-10-2025 01:16:49 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 01:16:49 [main] Log - Clicking on left menu :Links
+[INFO ] 27-10-2025 01:16:50 [main] Log - API feedback = Link has responded with staus 201 and status text Created
+[INFO ] 27-10-2025 01:16:55 [main] Log - Open: Elements > Upload and Download
+[INFO ] 27-10-2025 01:16:55 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 01:16:55 [main] Log - Clicking on left menu :Upload and Download
+[INFO ] 27-10-2025 01:16:55 [main] Log - Open: Elements > Upload and Download
+[INFO ] 27-10-2025 01:16:55 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 01:17:30 [main] Log - Open: Elements > Dynamic Properties
+[INFO ] 27-10-2025 01:17:30 [main] Log - Clicking on card :Elements
+[INFO ] 27-10-2025 01:17:30 [main] Log - Clicking on left menu :Dynamic Properties
+[INFO ] 27-10-2025 01:17:41 [main] Log - Open: Alerts, Frame & Windows > Alerts
+[INFO ] 27-10-2025 01:17:41 [main] Log - Clicking on card :Alerts, Frame & Windows
+[INFO ] 27-10-2025 01:17:41 [main] Log - Clicking on left menu :Alerts
+[INFO ] 27-10-2025 01:17:46 [main] Log - Open: Forms > Practice Form
+[INFO ] 27-10-2025 01:17:46 [main] Log - Clicking on card :Forms
+[INFO ] 27-10-2025 01:17:47 [main] Log - Clicking on left menu :Practice Form
+[INFO ] 27-10-2025 01:17:53 [main] Log - Open: Widgets > Date Picker
+[INFO ] 27-10-2025 01:17:53 [main] Log - Clicking on card :Widgets
+[INFO ] 27-10-2025 01:17:53 [main] Log - Clicking on left menu :Date Picker
+[INFO ] 27-10-2025 01:45:19 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 27-10-2025 01:45:19 [main] Log - Opening Radio Button
+[INFO ] 27-10-2025 01:45:19 [main] Log - Clicking on card: Elements
+[INFO ] 27-10-2025 01:45:19 [main] Log - Clicking on left menu: Radio Button
+[INFO ] 27-10-2025 01:45:19 [main] Log - Check button No co bat khong!
+[INFO ] 27-10-2025 01:45:19 [main] Log - 'No' disabled = true
+[INFO ] 27-10-2025 01:45:19 [main] Log - KẾT QUẢ: 'No' bị disabled đúng mong đợi.
+[INFO ] 27-10-2025 01:45:19 [main] Log - === END: DQ-RB-002 ===
+[INFO ] 27-10-2025 01:45:24 [main] Log - === START: DQ-WT-001 ===
+[INFO ] 27-10-2025 01:45:24 [main] Log - Open: Elements > Web Tables
+[INFO ] 27-10-2025 01:45:24 [main] Log - Clicking on card: Elements
+[INFO ] 27-10-2025 01:45:24 [main] Log - Clicking on left menu: Web Tables
+[INFO ] 27-10-2025 01:45:24 [main] Log - Tìm email theo First Name = 'Cierra'
+[INFO ] 27-10-2025 01:45:25 [main] Log - Email của Cierra: cierra@example.com
+[INFO ] 27-10-2025 01:45:25 [main] Log - KẾT QUẢ: Email hợp lệ.
+[INFO ] 27-10-2025 01:45:25 [main] Log - === END: DQ-WT-001 ===
+[INFO ] 27-10-2025 01:45:30 [main] Log - === START: DQ-WT-002 ===
+[INFO ] 27-10-2025 01:45:30 [main] Log - Open: Elements > Web Tables
+[INFO ] 27-10-2025 01:45:30 [main] Log - Clicking on card: Elements
+[INFO ] 27-10-2025 01:45:30 [main] Log - Clicking on left menu: Web Tables
+[INFO ] 27-10-2025 01:45:31 [main] Log - Click vào nút Edit tương ứng với Last Name = 'Cantrell'
+[INFO ] 27-10-2025 01:45:31 [main] Log - KẾT QUẢ: Form Edit mở thành công.
+[INFO ] 27-10-2025 01:45:31 [main] Log - === END: DQ-WT-002 ===
+[INFO ] 27-10-2025 01:45:45 [main] Log - === START: DQ-WT-003 ===
+[INFO ] 27-10-2025 01:45:45 [main] Log - Open: Elements > Web Tables
+[INFO ] 27-10-2025 01:45:45 [main] Log - Clicking on card: Elements
+[INFO ] 27-10-2025 01:45:45 [main] Log - Clicking on left menu: Web Tables
+[INFO ] 27-10-2025 01:45:46 [main] Log - Đếm số hàng sau hàng có Age = 39
+[INFO ] 27-10-2025 01:45:46 [main] Log - Số hàng sau Age=39: 9
+[INFO ] 27-10-2025 01:45:46 [main] Log - KẾT QUẢ: Đếm hàng thành công, giá trị hợp lệ.
+[INFO ] 27-10-2025 01:45:46 [main] Log - === END: DQ-WT-003 ===
+[INFO ] 27-10-2025 01:45:51 [main] Log - === START: DQ-BTN-001 ===
+[INFO ] 27-10-2025 01:45:51 [main] Log - Open: Elements > Buttons
+[INFO ] 27-10-2025 01:45:51 [main] Log - Clicking on card: Elements
+[INFO ] 27-10-2025 01:45:51 [main] Log - Clicking on left menu: Buttons
+[INFO ] 27-10-2025 01:45:51 [main] Log - Thực hiện double click vào nút Double Click Me
+[INFO ] 27-10-2025 01:46:26 [main] Log - === START: DQ-LNK-001 ===
+[INFO ] 27-10-2025 01:46:26 [main] Log - Open: Elements > Links
+[INFO ] 27-10-2025 01:46:26 [main] Log - Clicking on card: Elements
+[INFO ] 27-10-2025 01:46:27 [main] Log - Clicking on left menu: Links
+[INFO ] 27-10-2025 01:46:27 [main] Log - Click link 'Created' và chờ phản hồi API
+[INFO ] 27-10-2025 01:46:27 [main] Log - Phản hồi nhận được: Link has responded with staus 201 and status text Created
+[INFO ] 27-10-2025 01:46:27 [main] Log - KẾT QUẢ: Phản hồi API đúng định dạng 201 Created.
+[INFO ] 27-10-2025 01:46:27 [main] Log - === END: DQ-LNK-001 ===
+[INFO ] 27-10-2025 01:46:37 [main] Log - === START: DQ-UP-001 ===
+[INFO ] 27-10-2025 01:46:37 [main] Log - Open: Elements > Upload and Download
+[INFO ] 27-10-2025 01:46:37 [main] Log - Clicking on card: Elements
+[INFO ] 27-10-2025 01:46:37 [main] Log - Clicking on left menu: Upload and Download
+[INFO ] 27-10-2025 01:46:38 [main] Log - Thực hiện upload file logo.png
+[INFO ] 27-10-2025 01:46:43 [main] Log - === START: DQ-DP-001 ===
+[INFO ] 27-10-2025 01:46:43 [main] Log - Open: Elements > Dynamic Properties
+[INFO ] 27-10-2025 01:46:43 [main] Log - Clicking on card: Elements
+[INFO ] 27-10-2025 01:46:43 [main] Log - Clicking on left menu: Dynamic Properties
+[INFO ] 27-10-2025 01:46:43 [main] Log - Chờ button 'Will enable 5 seconds' chuyển sang trạng thái enable
+[INFO ] 27-10-2025 01:46:48 [main] Log - KẾT QUẢ: Button đã enable đúng sau khoảng 5s.
+[INFO ] 27-10-2025 01:46:48 [main] Log - === END: DQ-DP-001 ===
+[INFO ] 27-10-2025 01:46:53 [main] Log - === START: DQ-AL-001 ===
+[INFO ] 27-10-2025 01:46:53 [main] Log - Open: Alerts, Frame & Windows > Alerts
+[INFO ] 27-10-2025 01:46:53 [main] Log - Clicking on card: Alerts, Frame & Windows
+[INFO ] 27-10-2025 01:46:53 [main] Log - Clicking on left menu: Alerts
+[INFO ] 27-10-2025 01:46:53 [main] Log - Click button 'Click me' để mở alert và accept
+[INFO ] 27-10-2025 01:46:54 [main] Log - KẾT QUẢ: Alert mở và accept thành công.
+[INFO ] 27-10-2025 01:46:54 [main] Log - === END: DQ-AL-001 ===
+[INFO ] 27-10-2025 01:46:59 [main] Log - === START: DQ-FM-001 ===
+[INFO ] 27-10-2025 01:46:59 [main] Log - Open: Forms > Practice Form
+[INFO ] 27-10-2025 01:46:59 [main] Log - Clicking on card: Forms
+[INFO ] 27-10-2025 01:46:59 [main] Log - Clicking on left menu: Practice Form
+[INFO ] 27-10-2025 01:46:59 [main] Log - Nhập dữ liệu tối thiểu và submit form
+[INFO ] 27-10-2025 01:47:00 [main] Log - Modal hiển thị, kiểm tra dữ liệu...
+[INFO ] 27-10-2025 01:47:00 [main] Log - KẾT QUẢ: Form hiển thị modal và dữ liệu hợp lệ.
+[INFO ] 27-10-2025 01:47:00 [main] Log - === END: DQ-FM-001 ===
+[INFO ] 27-10-2025 01:47:05 [main] Log - === START: DQ-DPICK-001 ===
+[INFO ] 27-10-2025 01:47:05 [main] Log - Open: Widgets > Date Picker
+[INFO ] 27-10-2025 01:47:05 [main] Log - Clicking on card: Widgets
+[INFO ] 27-10-2025 01:47:05 [main] Log - Clicking on left menu: Date Picker
+[INFO ] 27-10-2025 01:47:06 [main] Log - Chọn ngày 1 trong lịch
+[INFO ] 27-10-2025 01:47:06 [main] Log - Thử chọn ngày 31 trong lịch
+[INFO ] 27-10-2025 01:47:06 [main] Log - KẾT QUẢ: Chọn ngày thành công, giá trị ngày cập nhật hợp lệ.
+[INFO ] 27-10-2025 01:47:06 [main] Log - === END: DQ-DPICK-001 ===
+[INFO ] 27-10-2025 01:48:24 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 27-10-2025 01:48:24 [main] Log - Opening Radio Button
+[INFO ] 27-10-2025 01:48:24 [main] Log - Clicking on card: Elements
+[INFO ] 27-10-2025 01:48:24 [main] Log - Clicking on left menu: Radio Button
+[INFO ] 27-10-2025 01:48:25 [main] Log - Check button No co bat khong!
+[INFO ] 27-10-2025 01:48:25 [main] Log - 'No' disabled = true
+[INFO ] 27-10-2025 01:48:25 [main] Log - KẾT QUẢ: 'No' bị disabled đúng mong đợi.
+[INFO ] 27-10-2025 01:48:25 [main] Log - === END: DQ-RB-002 ===
+[INFO ] 27-10-2025 01:48:30 [main] Log - === START: DQ-WT-001 ===
+[INFO ] 27-10-2025 01:48:30 [main] Log - Open: Elements > Web Tables
+[INFO ] 27-10-2025 01:48:30 [main] Log - Clicking on card: Elements
+[INFO ] 27-10-2025 01:48:30 [main] Log - Clicking on left menu: Web Tables
+[INFO ] 27-10-2025 01:48:30 [main] Log - Tìm email theo First Name = 'Cierra'
+[INFO ] 27-10-2025 01:48:30 [main] Log - Email của Cierra: cierra@example.com
+[INFO ] 27-10-2025 01:48:30 [main] Log - KẾT QUẢ: Email hợp lệ.
+[INFO ] 27-10-2025 01:48:30 [main] Log - === END: DQ-WT-001 ===
+[INFO ] 27-10-2025 01:48:35 [main] Log - === START: DQ-WT-002 ===
+[INFO ] 27-10-2025 01:48:35 [main] Log - Open: Elements > Web Tables
+[INFO ] 27-10-2025 01:48:35 [main] Log - Clicking on card: Elements
+[INFO ] 27-10-2025 01:48:35 [main] Log - Clicking on left menu: Web Tables
+[INFO ] 27-10-2025 01:48:35 [main] Log - Click vào nút Edit tương ứng với Last Name = 'Cantrell'
+[INFO ] 27-10-2025 01:48:36 [main] Log - KẾT QUẢ: Form Edit mở thành công.
+[INFO ] 27-10-2025 01:48:36 [main] Log - === END: DQ-WT-002 ===
+[INFO ] 27-10-2025 01:48:41 [main] Log - === START: DQ-WT-003 ===
+[INFO ] 27-10-2025 01:48:41 [main] Log - Open: Elements > Web Tables
+[INFO ] 27-10-2025 01:48:41 [main] Log - Clicking on card: Elements
+[INFO ] 27-10-2025 01:48:41 [main] Log - Clicking on left menu: Web Tables
+[INFO ] 27-10-2025 01:48:41 [main] Log - Đếm số hàng sau hàng có Age = 39
+[INFO ] 27-10-2025 01:48:41 [main] Log - Số hàng sau Age=39: 9
+[INFO ] 27-10-2025 01:48:41 [main] Log - KẾT QUẢ: Đếm hàng thành công, giá trị hợp lệ.
+[INFO ] 27-10-2025 01:48:41 [main] Log - === END: DQ-WT-003 ===
+[INFO ] 27-10-2025 01:48:46 [main] Log - === START: DQ-BTN-001 ===
+[INFO ] 27-10-2025 01:48:46 [main] Log - Open: Elements > Buttons
+[INFO ] 27-10-2025 01:48:46 [main] Log - Clicking on card: Elements
+[INFO ] 27-10-2025 01:48:46 [main] Log - Clicking on left menu: Buttons
+[INFO ] 27-10-2025 01:48:46 [main] Log - Thực hiện double click vào nút Double Click Me
+[INFO ] 27-10-2025 01:48:47 [main] Log - Thông điệp hiển thị: You have done a double click
+[INFO ] 27-10-2025 01:48:47 [main] Log - KẾT QUẢ: Double click hiển thị đúng thông điệp.
+[INFO ] 27-10-2025 01:48:47 [main] Log - === END: DQ-BTN-001 ===
+[INFO ] 27-10-2025 01:48:52 [main] Log - === START: DQ-LNK-001 ===
+[INFO ] 27-10-2025 01:48:52 [main] Log - Open: Elements > Links
+[INFO ] 27-10-2025 01:48:52 [main] Log - Clicking on card: Elements
+[INFO ] 27-10-2025 01:48:52 [main] Log - Clicking on left menu: Links
+[INFO ] 27-10-2025 01:48:52 [main] Log - Click link 'Created' và chờ phản hồi API
+[INFO ] 27-10-2025 01:48:53 [main] Log - Phản hồi nhận được: Link has responded with staus 201 and status text Created
+[INFO ] 27-10-2025 01:48:53 [main] Log - KẾT QUẢ: Phản hồi API đúng định dạng 201 Created.
+[INFO ] 27-10-2025 01:48:53 [main] Log - === END: DQ-LNK-001 ===
+[INFO ] 27-10-2025 01:48:57 [main] Log - === START: DQ-UP-001 ===
+[INFO ] 27-10-2025 01:48:57 [main] Log - Open: Elements > Upload and Download
+[INFO ] 27-10-2025 01:48:57 [main] Log - Clicking on card: Elements
+[INFO ] 27-10-2025 01:48:58 [main] Log - Clicking on left menu: Upload and Download
+[INFO ] 27-10-2025 01:48:58 [main] Log - Thực hiện upload file logo.png
+[INFO ] 27-10-2025 01:49:03 [main] Log - === START: DQ-DP-001 ===
+[INFO ] 27-10-2025 01:49:03 [main] Log - Open: Elements > Dynamic Properties
+[INFO ] 27-10-2025 01:49:03 [main] Log - Clicking on card: Elements
+[INFO ] 27-10-2025 01:49:03 [main] Log - Clicking on left menu: Dynamic Properties
+[INFO ] 27-10-2025 01:49:03 [main] Log - Chờ button 'Will enable 5 seconds' chuyển sang trạng thái enable
+[INFO ] 27-10-2025 01:49:08 [main] Log - KẾT QUẢ: Button đã enable đúng sau khoảng 5s.
+[INFO ] 27-10-2025 01:49:08 [main] Log - === END: DQ-DP-001 ===
+[INFO ] 27-10-2025 01:49:13 [main] Log - === START: DQ-AL-001 ===
+[INFO ] 27-10-2025 01:49:13 [main] Log - Open: Alerts, Frame & Windows > Alerts
+[INFO ] 27-10-2025 01:49:13 [main] Log - Clicking on card: Alerts, Frame & Windows
+[INFO ] 27-10-2025 01:49:13 [main] Log - Clicking on left menu: Alerts
+[INFO ] 27-10-2025 01:49:14 [main] Log - Click button 'Click me' để mở alert và accept
+[INFO ] 27-10-2025 01:49:14 [main] Log - KẾT QUẢ: Alert mở và accept thành công.
+[INFO ] 27-10-2025 01:49:14 [main] Log - === END: DQ-AL-001 ===
+[INFO ] 27-10-2025 01:49:19 [main] Log - === START: DQ-FM-001 ===
+[INFO ] 27-10-2025 01:49:19 [main] Log - Open: Forms > Practice Form
+[INFO ] 27-10-2025 01:49:19 [main] Log - Clicking on card: Forms
+[INFO ] 27-10-2025 01:49:19 [main] Log - Clicking on left menu: Practice Form
+[INFO ] 27-10-2025 01:49:19 [main] Log - Nhập dữ liệu tối thiểu và submit form
+[INFO ] 27-10-2025 01:49:20 [main] Log - Modal hiển thị, kiểm tra dữ liệu...
+[INFO ] 27-10-2025 01:49:21 [main] Log - KẾT QUẢ: Form hiển thị modal và dữ liệu hợp lệ.
+[INFO ] 27-10-2025 01:49:21 [main] Log - === END: DQ-FM-001 ===
+[INFO ] 27-10-2025 01:49:25 [main] Log - === START: DQ-DPICK-001 ===
+[INFO ] 27-10-2025 01:49:25 [main] Log - Open: Widgets > Date Picker
+[INFO ] 27-10-2025 01:49:26 [main] Log - Clicking on card: Widgets
+[INFO ] 27-10-2025 01:49:26 [main] Log - Clicking on left menu: Date Picker
+[INFO ] 27-10-2025 01:49:26 [main] Log - Chọn ngày 1 trong lịch
+[INFO ] 27-10-2025 01:49:26 [main] Log - Thử chọn ngày 31 trong lịch
+[INFO ] 27-10-2025 01:49:27 [main] Log - KẾT QUẢ: Chọn ngày thành công, giá trị ngày cập nhật hợp lệ.
+[INFO ] 27-10-2025 01:49:27 [main] Log - === END: DQ-DPICK-001 ===
+[INFO ] 27-10-2025 01:50:27 [main] Log - === START: DQ-UP-001 ===
+[INFO ] 27-10-2025 01:50:27 [main] Log - Open: Elements > Upload and Download
+[INFO ] 27-10-2025 01:50:27 [main] Log - Clicking on card: Elements
+[INFO ] 27-10-2025 01:50:27 [main] Log - Clicking on left menu: Upload and Download
+[INFO ] 27-10-2025 01:50:27 [main] Log - Thực hiện upload file logo.png
+[INFO ] 27-10-2025 01:51:23 [main] Log - === START: DQ-UP-001 ===
+[INFO ] 27-10-2025 01:51:23 [main] Log - Open: Elements > Upload and Download
+[INFO ] 27-10-2025 01:51:23 [main] Log - Clicking on card: Elements
+[INFO ] 27-10-2025 01:51:23 [main] Log - Clicking on left menu: Upload and Download
+[INFO ] 27-10-2025 01:51:23 [main] Log - Thực hiện upload file logo.png
+[INFO ] 27-10-2025 01:51:23 [main] Log - Upload file: C:\Users\This PC\IdeaProjects\ProjectCuoiKhoa\src\test
+[INFO ] 27-10-2025 01:51:23 [main] Log - Đường dẫn hiển thị sau upload: C:\fakepath\test
