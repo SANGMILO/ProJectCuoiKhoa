@@ -569,3 +569,33 @@
 [INFO ] 27-10-2025 01:51:23 [main] Log - Thực hiện upload file logo.png
 [INFO ] 27-10-2025 01:51:23 [main] Log - Upload file: C:\Users\This PC\IdeaProjects\ProjectCuoiKhoa\src\test
 [INFO ] 27-10-2025 01:51:23 [main] Log - Đường dẫn hiển thị sau upload: C:\fakepath\test
+[INFO ] 27-10-2025 01:58:54 [main] Log - === START: DQ-UP-001 ===
+[INFO ] 27-10-2025 01:58:54 [main] Log - Open: Elements > Upload and Download
+[INFO ] 27-10-2025 01:58:54 [main] Log - Clicking on card: Elements
+[INFO ] 27-10-2025 01:58:54 [main] Log - Clicking on left menu: Upload and Download
+[INFO ] 27-10-2025 01:58:54 [main] Log - Thực hiện upload file logo.png
+[INFO ] 27-10-2025 01:58:54 [main] Log - Upload file: C:\Users\This PC\IdeaProjects\ProjectCuoiKhoa\src\test\resources\logo.png
+[INFO ] 27-10-2025 01:59:34 [main] Log - === START: DQ-UP-001 ===
+[INFO ] 27-10-2025 01:59:34 [main] Log - Open: Elements > Upload and Download
+[INFO ] 27-10-2025 01:59:34 [main] Log - Clicking on card: Elements
+[INFO ] 27-10-2025 01:59:34 [main] Log - Clicking on left menu: Upload and Download
+[INFO ] 27-10-2025 01:59:34 [main] Log - Thực hiện upload file logo.png
+[INFO ] 27-10-2025 01:59:34 [main] Log - Upload file: C:\Users\This PC\IdeaProjects\ProjectCuoiKhoa\src\test\logo.png
+[INFO ] 27-10-2025 01:59:49 [main] Log - === START: DQ-UP-001 ===
+[INFO ] 27-10-2025 01:59:49 [main] Log - Open: Elements > Upload and Download
+[INFO ] 27-10-2025 01:59:49 [main] Log - Clicking on card: Elements
+[INFO ] 27-10-2025 01:59:49 [main] Log - Clicking on left menu: Upload and Download
+[INFO ] 27-10-2025 01:59:49 [main] Log - Thực hiện upload file logo.png
+[INFO ] 27-10-2025 01:59:49 [main] Log - Upload file: C:\Users\This PC\IdeaProjects\ProjectCuoiKhoa\src\test\logo.png
+[INFO ] 27-10-2025 02:00:55 [main] Log - === START: DQ-UP-001 ===
+[INFO ] 27-10-2025 02:00:55 [main] Log - Open: Elements > Upload and Download
+[INFO ] 27-10-2025 02:00:56 [main] Log - Clicking on card: Elements
+[INFO ] 27-10-2025 02:00:56 [main] Log - Clicking on left menu: Upload and Download
+[INFO ] 27-10-2025 02:00:56 [main] Log - Thực hiện upload file logo.png
+[INFO ] 27-10-2025 02:00:56 [main] Log - Upload file: C:\Users\This PC\IdeaProjects\ProjectCuoiKhoa\src\test\logo.png
+[INFO ] 27-10-2025 02:04:32 [main] Log - === START: DQ-UP-001 ===
+[INFO ] 27-10-2025 02:04:32 [main] Log - Open: Elements > Upload and Download
+[INFO ] 27-10-2025 02:04:32 [main] Log - Clicking on card: Elements
+[INFO ] 27-10-2025 02:04:32 [main] Log - Clicking on left menu: Upload and Download
+[INFO ] 27-10-2025 02:04:32 [main] Log - Thực hiện upload file logo.png
+[INFO ] 27-10-2025 02:04:32 [main] Log - Đọc file từ classpath: logo.png

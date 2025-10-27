@@ -118,13 +118,14 @@ public class FlowToElementTestCase extends BaseTest {
         page.open();
 
         Log.info("Thực hiện upload file logo.png");
-        String result = page.upload("C:\\Users\\This PC\\IdeaProjects\\ProjectCuoiKhoa\\src\\test");
-        Log.info("Đường dẫn hiển thị sau upload: " + result);
+        String result = page.uploadFromResources("logo.png");   // ✅ chỉ tên file
 
-        AssertUtils.assertTrue(result.endsWith("logo.png"), "Tên file hiểdn thị không đúng: " + result);
+        // DemoQA trả về "C:\fakepath\logo.png"
+        AssertUtils.assertTrue(result.endsWith("logo.png"), "Tên file hiển thị không đúng: " + result);
         Log.info("KẾT QUẢ: Upload thành công, tên file khớp với logo.png.");
         Log.info("=== END: DQ-UP-001 ===");
     }
+
 
     // DQ-DP-001 — Dynamic Properties: 'Will enable 5 seconds' enabled sau ~5s
     @Test(priority = 8, groups = {"elements","dynamic"})
