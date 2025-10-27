@@ -120,7 +120,6 @@ public class FlowToElementTestCase extends BaseTest {
         Log.info("Thực hiện upload file logo.png");
         String result = page.uploadFromResources("logo.png");   // ✅ chỉ tên file
 
-        // DemoQA trả về "C:\fakepath\logo.png"
         AssertUtils.assertTrue(result.endsWith("logo.png"), "Tên file hiển thị không đúng: " + result);
         Log.info("KẾT QUẢ: Upload thành công, tên file khớp với logo.png.");
         Log.info("=== END: DQ-UP-001 ===");
