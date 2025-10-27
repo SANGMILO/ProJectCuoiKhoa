@@ -1,24 +1,12 @@
 package reports;
 
 import actions.common.BaseTest;
-import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.MediaEntityBuilder;
-import com.aventstack.extentreports.Status;
-
+import com.aventstack.extentreports.*;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-
-import org.openqa.selenium.*;
-import org.apache.commons.io.FileUtils;
-import reports.ExtentManager;
-import reports.ExtentTestManager;
-
-import java.io.File;
-import java.nio.file.Paths;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 
 public class TestListener implements ITestListener {
     private static ExtentReports extent;
@@ -30,7 +18,9 @@ public class TestListener implements ITestListener {
 
     @Override
     public void onFinish(ITestContext context) {
-        extent.flush();
+        if (extent != null) {
+            extent.flush();
+        }
     }
 
     @Override
@@ -40,52 +30,61 @@ public class TestListener implements ITestListener {
         ExtentTestManager.setTest(test);
     }
 
+    // ======================
+    // ✅ PASS: Chụp ảnh khi test pass
+    // ======================
     @Override
     public void onTestSuccess(ITestResult result) {
-        ExtentTestManager.getTest().log(Status.PASS, "Test passed");
         ExtentTest test = ExtentTestManager.getTest();
-        test.log(Status.PASS, "Test Passed");
-
-        test.fail(result.getThrowable());
-        String base64 = ((TakesScreenshot) BaseTest.getDriver()).getScreenshotAs(OutputType.BASE64);
-        test.fail("Screenshot on failure",
-                com.aventstack.extentreports.MediaEntityBuilder
-                        .createScreenCaptureFromBase64String(base64, result.getMethod().getMethodName())
-                        .build()
-        );
+        test.log(Status.PASS, "✅ Test passed: " + result.getMethod().getMethodName());
+        attachScreenshot(test, "Screenshot on success");
         ExtentTestManager.remove();
     }
 
+    // ======================
+    // ❌ FAIL: Chụp ảnh khi test fail
+    // ======================
     @Override
     public void onTestFailure(ITestResult result) {
         ExtentTest test = ExtentTestManager.getTest();
-        test.fail(result.getThrowable());
-        String base64 = ((TakesScreenshot) BaseTest.getDriver()).getScreenshotAs(OutputType.BASE64);
-        test.fail("Screenshot on failure",
-                com.aventstack.extentreports.MediaEntityBuilder
-                        .createScreenCaptureFromBase64String(base64, result.getMethod().getMethodName())
-                        .build()
-        );
+        test.log(Status.FAIL, "❌ Test failed: " + result.getMethod().getMethodName());
+        if (result.getThrowable() != null) {
+            test.fail(result.getThrowable());
+        }
+        attachScreenshot(test, "Screenshot on failure");
         ExtentTestManager.remove();
     }
 
+    // ======================
+    // ⚠️ SKIP: Chụp ảnh khi test bị bỏ qua
+    // ======================
     @Override
     public void onTestSkipped(ITestResult result) {
-        ExtentTestManager.getTest().log(Status.SKIP, "Test skipped: " + result.getSkipCausedBy().toString());
+        ExtentTest test = ExtentTestManager.getTest();
+        String reason = (result.getThrowable() != null)
+                ? result.getThrowable().getMessage()
+                : "No skip reason provided.";
+        test.log(Status.SKIP, "⚠️ Test skipped: " + reason);
+        attachScreenshot(test, "Screenshot on skip");
         ExtentTestManager.remove();
     }
 
-    private String takeScreenshot(WebDriver driver, String name) {
+    // ======================
+    // 📸 HÀM DÙNG CHUNG ĐỂ GẮN ẢNH VÀO REPORT
+    // ======================
+    private void attachScreenshot(ExtentTest test, String title) {
         try {
-            String ts = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
-            String shotsDir = "target/extent/screenshots";
-            new File(shotsDir).mkdirs();
-            File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            String dest = Paths.get(shotsDir, name + "_" + ts + ".png").toString();
-            FileUtils.copyFile(src, new File(dest));
-            return dest;
+            if (BaseTest.getDriver() != null) {
+                String base64 = ((TakesScreenshot) BaseTest.getDriver())
+                        .getScreenshotAs(OutputType.BASE64);
+                test.info(title, MediaEntityBuilder
+                        .createScreenCaptureFromBase64String(base64)
+                        .build());
+            } else {
+                test.warning("⚠️ Driver null — không thể chụp ảnh.");
+            }
         } catch (Exception e) {
-            return null;
+            test.warning("⚠️ Lỗi khi chụp ảnh: " + e.getMessage());
         }
     }
 }

@@ -118,7 +118,7 @@ public class FlowToElementTestCase extends BaseTest {
         page.open();
 
         Log.info("Thực hiện upload file logo.png");
-        String result = page.uploadFromResources("logo.png");   // ✅ chỉ tên file
+        String result = page.uploadFromResources("logo.png");
 
         AssertUtils.assertTrue(result.endsWith("logo.png"), "Tên file hiển thị không đúng: " + result);
         Log.info("KẾT QUẢ: Upload thành công, tên file khớp với logo.png.");
