@@ -941,3 +941,87 @@
 [INFO ] 27-10-2025 16:24:24 [main] Log - === END: DQ-FM-001 ===
 [INFO ] 27-10-2025 16:24:26 [main] Log - === START: DQ-DPICK-001 ===
 [INFO ] 27-10-2025 16:24:26 [main] Log - Open: Widgets > Date Picker
+[INFO ] 28-10-2025 12:54:56 [main] Log - === START: DQ-RB-002 ===
+[INFO ] 28-10-2025 12:54:56 [main] Log - Opening Radio Button
+[INFO ] 28-10-2025 12:54:56 [main] Log - Clicking on card: Elements
+[INFO ] 28-10-2025 12:54:56 [main] Log - Clicking on left menu: Radio Button
+[INFO ] 28-10-2025 12:54:56 [main] Log - Check button No co bat khong!
+[INFO ] 28-10-2025 12:54:56 [main] Log - 'No' disabled = true
+[INFO ] 28-10-2025 12:54:56 [main] Log - KẾT QUẢ: 'No' bị disabled đúng mong đợi.
+[INFO ] 28-10-2025 12:54:56 [main] Log - === END: DQ-RB-002 ===
+[INFO ] 28-10-2025 12:55:01 [main] Log - === START: DQ-WT-001 ===
+[INFO ] 28-10-2025 12:55:01 [main] Log - Open: Elements > Web Tables
+[INFO ] 28-10-2025 12:55:01 [main] Log - Clicking on card: Elements
+[INFO ] 28-10-2025 12:55:01 [main] Log - Clicking on left menu: Web Tables
+[INFO ] 28-10-2025 12:55:02 [main] Log - Tìm email theo First Name = 'Cierra'
+[INFO ] 28-10-2025 12:55:02 [main] Log - Email của Cierra: cierra@example.com
+[INFO ] 28-10-2025 12:55:02 [main] Log - KẾT QUẢ: Email hợp lệ.
+[INFO ] 28-10-2025 12:55:02 [main] Log - === END: DQ-WT-001 ===
+[INFO ] 28-10-2025 12:55:07 [main] Log - === START: DQ-WT-002 ===
+[INFO ] 28-10-2025 12:55:07 [main] Log - Open: Elements > Web Tables
+[INFO ] 28-10-2025 12:55:07 [main] Log - Clicking on card: Elements
+[INFO ] 28-10-2025 12:55:07 [main] Log - Clicking on left menu: Web Tables
+[INFO ] 28-10-2025 12:55:08 [main] Log - Click vào nút Edit tương ứng với Last Name = 'Cantrell'
+[INFO ] 28-10-2025 12:55:08 [main] Log - KẾT QUẢ: Form Edit mở thành công.
+[INFO ] 28-10-2025 12:55:08 [main] Log - === END: DQ-WT-002 ===
+[INFO ] 28-10-2025 12:55:14 [main] Log - === START: DQ-WT-003 ===
+[INFO ] 28-10-2025 12:55:14 [main] Log - Open: Elements > Web Tables
+[INFO ] 28-10-2025 12:55:14 [main] Log - Clicking on card: Elements
+[INFO ] 28-10-2025 12:55:14 [main] Log - Clicking on left menu: Web Tables
+[INFO ] 28-10-2025 12:55:14 [main] Log - Đếm số hàng sau hàng có Age = 39
+[INFO ] 28-10-2025 12:55:14 [main] Log - Số hàng sau Age=39: 9
+[INFO ] 28-10-2025 12:55:14 [main] Log - KẾT QUẢ: Đếm hàng thành công, giá trị hợp lệ.
+[INFO ] 28-10-2025 12:55:14 [main] Log - === END: DQ-WT-003 ===
+[INFO ] 28-10-2025 12:55:19 [main] Log - === START: DQ-BTN-001 ===
+[INFO ] 28-10-2025 12:55:19 [main] Log - Open: Elements > Buttons
+[INFO ] 28-10-2025 12:55:19 [main] Log - Clicking on card: Elements
+[INFO ] 28-10-2025 12:55:19 [main] Log - Clicking on left menu: Buttons
+[INFO ] 28-10-2025 12:55:20 [main] Log - Thực hiện double click vào nút Double Click Me
+[INFO ] 28-10-2025 12:55:20 [main] Log - Thông điệp hiển thị: You have done a double click
+[INFO ] 28-10-2025 12:55:20 [main] Log - KẾT QUẢ: Double click hiển thị đúng thông điệp.
+[INFO ] 28-10-2025 12:55:20 [main] Log - === END: DQ-BTN-001 ===
+[INFO ] 28-10-2025 12:55:25 [main] Log - === START: DQ-LNK-001 ===
+[INFO ] 28-10-2025 12:55:25 [main] Log - Open: Elements > Links
+[INFO ] 28-10-2025 12:55:25 [main] Log - Clicking on card: Elements
+[INFO ] 28-10-2025 12:55:25 [main] Log - Clicking on left menu: Links
+[INFO ] 28-10-2025 12:55:25 [main] Log - Click link 'Created' và chờ phản hồi API
+[INFO ] 28-10-2025 12:55:26 [main] Log - Phản hồi nhận được: Link has responded with staus 201 and status text Created
+[INFO ] 28-10-2025 12:55:26 [main] Log - KẾT QUẢ: Phản hồi API đúng định dạng 201 Created.
+[INFO ] 28-10-2025 12:55:26 [main] Log - === END: DQ-LNK-001 ===
+[INFO ] 28-10-2025 12:55:31 [main] Log - === START: DQ-UP-001 ===
+[INFO ] 28-10-2025 12:55:31 [main] Log - Open: Elements > Upload and Download
+[INFO ] 28-10-2025 12:55:31 [main] Log - Clicking on card: Elements
+[INFO ] 28-10-2025 12:55:31 [main] Log - Clicking on left menu: Upload and Download
+[INFO ] 28-10-2025 12:55:31 [main] Log - Thực hiện upload file logo.png
+[INFO ] 28-10-2025 12:55:31 [main] Log - Thử load file upload: logo.png
+[WARN ] 28-10-2025 12:55:31 [main] Log - Không thấy trên classpath: logo.png -> fallback qua filesystem
+[INFO ] 28-10-2025 12:55:36 [main] Log - === START: DQ-DP-001 ===
+[INFO ] 28-10-2025 12:55:36 [main] Log - Open: Elements > Dynamic Properties
+[INFO ] 28-10-2025 12:55:36 [main] Log - Clicking on card: Elements
+[INFO ] 28-10-2025 12:55:36 [main] Log - Clicking on left menu: Dynamic Properties
+[INFO ] 28-10-2025 12:55:36 [main] Log - Chờ button 'Will enable 5 seconds' chuyển sang trạng thái enable
+[INFO ] 28-10-2025 12:55:42 [main] Log - KẾT QUẢ: Button đã enable đúng sau khoảng 5s.
+[INFO ] 28-10-2025 12:55:42 [main] Log - === END: DQ-DP-001 ===
+[INFO ] 28-10-2025 12:55:47 [main] Log - === START: DQ-AL-001 ===
+[INFO ] 28-10-2025 12:55:47 [main] Log - Open: Alerts, Frame & Windows > Alerts
+[INFO ] 28-10-2025 12:55:47 [main] Log - Clicking on card: Alerts, Frame & Windows
+[INFO ] 28-10-2025 12:55:47 [main] Log - Clicking on left menu: Alerts
+[INFO ] 28-10-2025 12:55:47 [main] Log - Click button 'Click me' để mở alert và accept
+[INFO ] 28-10-2025 12:55:47 [main] Log - KẾT QUẢ: Alert mở và accept thành công.
+[INFO ] 28-10-2025 12:55:47 [main] Log - === END: DQ-AL-001 ===
+[INFO ] 28-10-2025 12:55:52 [main] Log - === START: DQ-FM-001 ===
+[INFO ] 28-10-2025 12:55:52 [main] Log - Open: Forms > Practice Form
+[INFO ] 28-10-2025 12:55:52 [main] Log - Clicking on card: Forms
+[INFO ] 28-10-2025 12:55:52 [main] Log - Clicking on left menu: Practice Form
+[INFO ] 28-10-2025 12:55:52 [main] Log - Nhập dữ liệu tối thiểu và submit form
+[INFO ] 28-10-2025 12:55:53 [main] Log - Modal hiển thị, kiểm tra dữ liệu...
+[INFO ] 28-10-2025 12:55:53 [main] Log - KẾT QUẢ: Form hiển thị modal và dữ liệu hợp lệ.
+[INFO ] 28-10-2025 12:55:53 [main] Log - === END: DQ-FM-001 ===
+[INFO ] 28-10-2025 12:55:58 [main] Log - === START: DQ-DPICK-001 ===
+[INFO ] 28-10-2025 12:55:58 [main] Log - Open: Widgets > Date Picker
+[INFO ] 28-10-2025 12:55:58 [main] Log - Clicking on card: Widgets
+[INFO ] 28-10-2025 12:55:58 [main] Log - Clicking on left menu: Date Picker
+[INFO ] 28-10-2025 12:55:58 [main] Log - Chọn ngày 1 trong lịch
+[INFO ] 28-10-2025 12:55:59 [main] Log - Thử chọn ngày 31 trong lịch
+[INFO ] 28-10-2025 12:55:59 [main] Log - KẾT QUẢ: Chọn ngày thành công, giá trị ngày cập nhật hợp lệ.
+[INFO ] 28-10-2025 12:55:59 [main] Log - === END: DQ-DPICK-001 ===
