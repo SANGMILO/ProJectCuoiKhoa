@@ -3,7 +3,7 @@ pipeline {
   options { timestamps() }
   environment {
     JAVA_HOME = 'C:\\Program Files\\Java\\jdk-17'
-    M2_HOME   = 'D:\\MVN\\apache-maven-3.9.11'   // chỉnh đúng đường dẫn của bạn
+    M2_HOME   = 'D:\\MVN\\apache-maven-3.9.11'
     PATH      = "${M2_HOME}\\bin;${JAVA_HOME}\\bin;${env.PATH}"
   }
   stages {
